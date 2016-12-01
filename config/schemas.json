@@ -1,0 +1,25 @@
+{
+  "Site": {
+    "name": "Site",
+    "primaryKey": "uuid",
+    "properties": {
+      "uuid": {"type": "string"},
+      "title": {"type": "string"},
+      "hash": {"type": "string", "optional": true},
+      "pages": {"type": "list", "objectType": "Page"},
+      "url": {"type": "string", "optional": true},
+      "created_at": {"type": "date"}
+    }
+  },
+  "Page": {
+    "name": "Page",
+    "primaryKey": "uuid",
+    "properties": {
+      "uuid": {"type": "string"},
+      "hash": {"type": "string", "optional": true},
+      "title": {"type": "string"},
+      "url": {"type": "string"},
+      "created_at": {"type": "date"}
+    }
+  }
+}

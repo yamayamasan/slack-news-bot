@@ -1,0 +1,6 @@
+{
+ "lifehacker": {
+   "rss" : "http://feeds.lifehacker.jp/rss/lifehacker/index.xml",
+   "time" : "0 0 7,13,18 * * *"
+ }
+}
