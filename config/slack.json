@@ -1,0 +1,9 @@
+{
+  "token": "*",
+  "channel": {
+    "id": "*"
+  },
+  "bot": {
+    "name" :"newsbot"
+  }
+}
