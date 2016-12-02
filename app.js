@@ -51,7 +51,7 @@ function postNews(datas) {
       short: false
     });
   });
-  
+
   const params = Object.assign({}, base, {
     attachments: [{
       fallback: datas.title,
